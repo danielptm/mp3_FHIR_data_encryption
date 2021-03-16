@@ -1,0 +1,114 @@
+
+.container{
+  width: 100%;
+  height: 100vh;
+}
+
+.innerContainer {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  height: 400px;
+}
+
+.jsonDisplay {
+  background-color: lightblue;
+  width: 50%;
+  overflow-y: scroll;
+}
+.editBox {
+  font-size: 18px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  overflow-x: scroll;
+}
+
+.boxRow > input {
+  margin: 5px;
+  border-color: lightgray;
+  border-width: 1px;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.buttonContainer {
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+  padding: 15px;
+  font-size: 18px;
+  border-width: 1px;
+  border-color: lightcyan;
+  color: black;
+  border-radius: 5px;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  line-height: 75px;
+  background-color: lightgreen;
+}
+
+.image {
+  height: 75%;
+  vertical-align: center;
+  width: auto;
+}
+
+.headerText {
+  width: 50%;
+  font-size: 24px;
+}
+
+.turtleContainer {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.text {
+  width: 400px;
+  height: 100px;
+}
+
+.innerText {
+  width: 400px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.encrypted {
+  font-size: 12px;
+}
+
+.decryptContainer {
+  overflow-y: scroll;
+
+}
+.decrypted {
+  font-size: 10px;
+}
